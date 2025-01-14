@@ -9,7 +9,7 @@ from sklearn.metrics import mean_absolute_error
 from sklearn.preprocessing import StandardScaler
 
 # Load the dataset
-data = pd.read_csv('sales_data.csv')
+data = pd.read_csv(r'C:\Users\pc\OneDrive\Desktop\sc\SC_Optimization_ML\sales_data.csv')
 
 # Convert the 'date' column to datetime format
 data['date'] = pd.to_datetime(data['date'])
